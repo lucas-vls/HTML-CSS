@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@font-face {
+    font-family:Gotham-Bold;
+    src: url(Gotham-Bold.otf);
+@font-face {
+    font-family:Roboto-Light;
+    src: url(Roboto-Light.ttf);
+    
+}
+}
+h1{
+    font-family:Gotham-Bold;
+    font-size: 40pt;
+    text-align: center;
+}
+p{
+    font-family: Roboto-Light;
+    text-align: justify;
+    text-indent: 20px;
+
+}

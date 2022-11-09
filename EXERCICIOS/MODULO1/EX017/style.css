@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightgray;
+    font-family: Georgia, serif;
+    font-size: 12pt;
+}
+h1{
+    font-family: 'Lucida Sans';
+    font-size: 30pt;
+    background-color: lightpink;
+}
+h2{
+    font-size: 12pt;
+    color: aliceblue;
+}
+p{
+    text-align: justify;
+}

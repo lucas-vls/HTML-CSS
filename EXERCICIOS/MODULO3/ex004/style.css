@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*
+shorthand de background [ñ curti muito, mas é bom saber K K K KKK ]
+background: color; image; position; repeat; size; attachment;
+*/
+
+body{
+    height: 100vh;
+    background-color: bisque;
+    background-image: url('imagens/wallpaper002.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    width: 400px;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+}

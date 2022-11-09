@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    font-size:30px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: darkblue;
+}
+a:hover{
+    text-decoration: underline;
+    color: crimson;
+}

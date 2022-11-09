@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    text-align: justify;
+}
+h1{
+    background-color: blueviolet;
+    font-weight: bold;
+}
+h1#header{
+    background-color:#ff6600;
+    text-align: center;
+    font-weight: 500px;
+    color: white;
+}
+.titulo{
+    background-color: coral;
+    font-size: xx-small;
+}
+h2{
+    font-weight: bolder;
+}
+p{
+    font-weight: lighter;
+}
+#box{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 18px;
+    height: 100px;
+    width: 300px;
+    align-items: center;
+    border: 1px solid black;
+    display: grid ;
+}
+#box:hover{
+    background-color:aqua;
+}
