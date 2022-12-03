@@ -5,8 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Área de login.</title>
+    <link rel="stylesheet" href="estilos/mobile.css" media="screen and (min-width:300px) and (max-width:736px)">
 </head>
 <body>
-    
-</body>
+    <h1>Bem-vindo :)</h1>
+    <div class="container">
+        <form action="login1.js" method="post">
+            <p>
+                <label for="usu"></label>
+                <input class="main"  type="text" name="usu" id="usu" placeholder="Usuário"  required>
+            </p>
+            <p>
+                <label for="sen"></label>
+                <input class="main" type="password" name="sen" id="sen" placeholder="Senha" required minlength="8">
+            </p>
+    </div>
+    <div class="btns">
+        <input class="fim" type="submit" value="Entrar" onclick="enviar()">
+        <input class="fim" type="button" value="Esqueci a senha" onclick="res()">
+        <a href="#"><input class="fim" type="button" value="Cadastrar"></a>
+    </div>
+    </form>
+    <script src="login.js"></script>
+</body>  
 </html>
