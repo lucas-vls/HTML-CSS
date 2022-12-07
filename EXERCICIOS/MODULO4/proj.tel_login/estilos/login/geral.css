@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family:PoppinsBold ;
+    src: url(../../fontes/Poppins-Bold.otf);
+}
+
+@font-face {
+    font-family:PoppinsRegular ;
+    src: url(../../fontes/Poppins-Regular.otf);
+}
+
+html{
+    transition: width .3s, height .3s, ease;
+}
+
+body{
+    background-image:url(../../imagens/back2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
