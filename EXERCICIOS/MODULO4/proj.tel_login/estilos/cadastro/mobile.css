@@ -1,0 +1,83 @@
+.esq{
+    display: none;
+}
+
+.header{
+    color: white;
+    text-align: center;
+    margin-top:96px ;
+    margin-bottom: 48px;
+    font-family: PoppinsBold;
+
+}
+
+
+.formu{
+    display: flex;
+    justify-content: center;
+    background-color: #eaeaea;
+    width: 366px;
+    height: 520px; 
+    border-radius: 20px;
+    margin: auto;
+}
+
+.form{
+    width: 300px;
+    height: 40px;
+    border-color: transparent;
+    border-radius: 20px;
+    background-color: #BBBBBB;
+    color: white;
+    font-size: 18px;
+    font-family: PoppinsBold;
+    text-align: center;
+}
+
+input:hover{
+    background-color: #673797;
+    transition: 0.4s;
+}
+
+#nome{
+    margin-top: 24px;
+}
+
+::placeholder{
+    color: white;
+    text-align: center;
+    font-family: PoppinsBold;
+    font-size: 18px;
+}
+
+
+.check{
+    font-family: PoppinsBold;
+    font-size: 12px;
+}
+
+#conc{
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin-top: 12px;
+    padding: 8px;
+    border-color: transparent;
+    background-color:#673797 ;
+    color: white;
+    font-family: PoppinsBold;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    font-size: 23px;
+    transition: 0.4s;
+}

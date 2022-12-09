@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilos/cadastro/style.css">
+    <link rel="stylesheet" href="estilos/cadastro/mobile.css">
+    <link rel="stylesheet" href="estilos/cadastro/tablet.css">
+    <link rel="stylesheet" href="estilos/cadastro/desktop.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="esq">
+                <h1>Vantagens de ter uma conta:</h1>
+                <p>
+                    •Lorem Ipsum
+                    •Lorem Ipsum
+                    •Lorem Ipsum
+                    •Lorem Ipsum
+                    •Lorem Ipsum
+                </p>
+            </div>
+            <div class="dir">
+                <div class="header">
+                    <h1>Realize seu cadastro e fique por dentro de tudo!</h1>
+                </div>
+                <div class="formu">
+                    <form action="enviar.php" method="post">
+                        <p>
+                            <label for="nome"></label>
+                            <input class="form" type="text" name="nome" id="nome" placeholder="Nome completo">
+                        </p>
+                        <p>
+                            <label for="email"></label>
+                            <input class="form" type="email" name="email" id="email" placeholder="Email">
+                        </p>
+                        <p>
+                            <label for="cel"></label>
+                            <input class="form" type="tel" name="cel" id="cel" placeholder="Celular">
+                        </p>
+                        <p>
+                            <label for="sen"></label>
+                            <input class="form" type="password" name="sen" id="sen" placeholder="Senha">
+                        </p>
+                        <p>
+                            <label for="csen"></label>
+                            <input class="form" type="password" name="csen" id="csen" placeholder="Confirmar senha">
+                        </p>
+                        <p class="check">
+                            <input type="checkbox" name="conc" id="conc"><label for="conc">Concordo com os termos e condições.</label> <br>
+                            <input type="checkbox" name="acei" id="acei"><label for="acei">Aceito receber notícias no meu email.</label>
+                        </p>
+                        <div class="botao">
+                            <input class="btn" type="submit" value="Cadastrar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
