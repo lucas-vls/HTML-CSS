@@ -10,6 +10,18 @@
     src: url(../../fontes/Poppins-Regular.otf);
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     background-image: url(../../imagens/back2.jpg)
+}
+
+h1{
+    font-family: PoppinsBold;
+    font-size: 48px;
+    line-height: 1.2em;
+    margin: 48px 24px;
 }

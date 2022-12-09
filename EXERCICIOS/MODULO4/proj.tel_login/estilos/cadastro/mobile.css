@@ -32,6 +32,7 @@
     font-size: 18px;
     font-family: PoppinsBold;
     text-align: center;
+    margin-bottom: 24px;
 }
 
 input:hover{
@@ -54,6 +55,11 @@ input:hover{
 .check{
     font-family: PoppinsBold;
     font-size: 12px;
+    margin-left: 12px;
+}
+
+.check > label{
+    margin-left: 12px;
 }
 
 #conc{

@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+}
+.esq{
+    background-color: white;
+    width: 570px;
+    height: 100vh;
+    background-image: url(../../imagens/vetor.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 90%;
+}
+
+.esq > p{
+    font-family: PoppinsBold;
+    font-size: 24px;
+    margin-bottom: 48px;
+    margin-left: 24px;
+}
+
+.prim{
+    margin-top:96px;
+}
