@@ -48,6 +48,8 @@
     text-align: center;
     font-family: PoppinsBold;
     font-size: 18px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.125);
+
 }
 
 #nome{
@@ -62,7 +64,7 @@
 }
 
 .form:hover{
-    background-color: #673797;
+    background-color: #260a7e;
     transition: 0.4s;
 }
 
@@ -94,7 +96,7 @@
     color: white;
     font-family: PoppinsBold;
     font-size: 24px;
-    background-color: #673797;
+    background-color: #260a7e;
 }
 
 .btn:hover{
