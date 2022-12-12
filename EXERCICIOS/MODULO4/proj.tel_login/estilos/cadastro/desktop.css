@@ -1,0 +1,108 @@
+.container{
+    display: flex;
+}
+.esq{
+    background-color: white;
+    width: 570px;
+    height: 100vh;
+    background-image: url(../../imagens/vetor.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 90%;
+}
+
+.esq > p{
+    font-family: PoppinsBold;
+    font-size: 24px;
+    margin-bottom: 48px;
+    margin-left: 24px;
+}
+
+.prim{
+    margin-top:96px;
+}
+
+.header{
+    color: white;
+    text-align: center;
+}
+
+.header >h1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.formu{
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 595px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.form{
+    background-color: #BBBBBB;
+    width: 355px;
+    height: 48px;
+    border-radius: 20px;
+    border-color: transparent;
+    margin-bottom: 24px;
+    color: white;
+    text-align: center;
+    font-family: PoppinsBold;
+    font-size: 18px;
+}
+
+#nome{
+    margin-top: 48px;
+}
+
+::placeholder{
+    color: white;
+    text-align: center;
+    font-family: PoppinsBold;
+    font-size: 18px;
+}
+
+.form:hover{
+    background-color: #673797;
+    transition: 0.4s;
+}
+
+.check{
+    margin-left: 48px;
+    font-family: PoppinsBold;
+    font-size: 12px;
+}
+
+.check>label{
+    margin-left: 12px;
+    text-align: center;
+}
+
+#conc{
+    margin-bottom: 24px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn{
+    padding: 8px;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    font-family: PoppinsBold;
+    font-size: 24px;
+    background-color: #673797;
+}
+
+.btn:hover{
+    font-size: 27px;
+    transition: 0.4s;
+}

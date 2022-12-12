@@ -29,35 +29,37 @@
                     <form action="enviar.php" method="post">
                         <p>
                             <label for="nome"></label>
-                            <input class="form" type="text" name="nome" id="nome" placeholder="Nome completo">
+                            <input class="form" type="text" name="nome" id="nome" placeholder="Nome completo" required>
                         </p>
                         <p>
                             <label for="email"></label>
-                            <input class="form" type="email" name="email" id="email" placeholder="Email">
+                            <input class="form" type="email" name="email" id="email" placeholder="Email" required>
                         </p>
                         <p>
                             <label for="cel"></label>
-                            <input class="form" type="tel" name="cel" id="cel" placeholder="Celular">
+                            <input class="form" type="tel" name="cel" id="cel" placeholder="Celular" required>
                         </p>
                         <p>
                             <label for="sen"></label>
-                            <input class="form" type="password" name="sen" id="sen" placeholder="Senha">
+                            <input class="form" type="password" name="sen" id="sen" placeholder="Senha" required minlength="8">
                         </p>
                         <p>
                             <label for="csen"></label>
-                            <input class="form" type="password" name="csen" id="csen" placeholder="Confirmar senha">
+                            <input class="form" type="password" name="csen" id="csen" placeholder="Confirmar senha" required minlength="8" onmouseout="validar1()">
                         </p>
                         <p class="check">
                             <input type="checkbox" name="conc" id="conc"><label for="conc">Concordo com os termos e condições.</label> <br>
                             <input type="checkbox" name="acei" id="acei"><label for="acei">Aceito receber notícias no meu email.</label>
                         </p>
                         <div class="botao">
-                            <input class="btn" type="submit" value="Cadastrar">
+                            <input class="btn" type="submit" value="Cadastrar" onclick="cadastrar()">
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </main>
+<!-- linha-->
+<script src="cadastro.js"></script>
 </body>
 </html>
