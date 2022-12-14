@@ -1,7 +1,6 @@
-function validar1(){
-let sen = document.getElementById('sen')
-let csen = document.getElementById('csen')
-if(sen.value!=csen.value){
-    alert('Senhas não são iguais!')
-}
-}
+let formulario = document.getElementById('formulario')
+let nome = document.getElementById('nome')
+let email = document.getElementById('email')
+let celular = document.getElementById('cel')
+let senha = document.getElementById('sen')
+let csenha = document.getElementById('csen')

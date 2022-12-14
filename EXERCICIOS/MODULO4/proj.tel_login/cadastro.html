@@ -26,7 +26,7 @@
                     <h1>Realize seu cadastro e fique por dentro de tudo!</h1>
                 </div>
                 <div class="formu">
-                    <form action="enviar.php" method="post">
+                    <form id="formulario" action="enviar.php" method="post">
                         <p>
                             <label for="nome"></label>
                             <input class="form" type="text" name="nome" id="nome" placeholder="Nome completo" required>
@@ -45,14 +45,14 @@
                         </p>
                         <p>
                             <label for="csen"></label>
-                            <input class="form" type="password" name="csen" id="csen" placeholder="Confirmar senha" required minlength="8" onmouseout="validar1()">
+                            <input class="form" type="password" name="csen" id="csen" placeholder="Confirmar senha" required minlength="8" >
                         </p>
                         <p class="check">
                             <input type="checkbox" name="conc" id="conc"><label for="conc">Concordo com os termos e condições.</label> <br>
                             <input type="checkbox" name="acei" id="acei"><label for="acei">Aceito receber notícias no meu email.</label>
                         </p>
                         <div class="botao">
-                            <input class="btn" type="submit" value="Cadastrar" onclick="cadastrar()">
+                            <input id="btn" class="btn" type="submit" value="Cadastrar">
                         </div>
                     </form>
                 </div>
