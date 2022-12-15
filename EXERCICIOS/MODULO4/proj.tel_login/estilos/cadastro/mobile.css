@@ -38,7 +38,7 @@
 }
 
 input:hover{
-    background-color: #260a7e;
+    background-color: #250a7ea8;
     transition: 0.4s;
 }
 
@@ -89,3 +89,4 @@ input:hover{
     font-size: 23px;
     transition: 0.4s;
 }
+

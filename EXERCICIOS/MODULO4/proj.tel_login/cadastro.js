@@ -1,18 +1,19 @@
-document.getElementById('btn').disabled=true;
-//linha
-let formulario = document.getElementById('formulario')
-let nome = document.getElementById('nome')
-let email = document.getElementById('email')
-let celular = document.getElementById('cel')
-let senha = document.getElementById('sen')
-let csenha = document.getElementById('csen')
-//linha
+/* variaveis*/
 
-function alertasenha(){
-    if(senha.value===csenha.value){
-        return true
-    } else{
+let formulario = document.getElementById('formulario')
+let campos = document.getElementsByClassName('form')
+
+/* listeners */
+/* document.getElementById('emai;').addEventListener('mouseout', ) */
+/* document.getElementById('cel').addEventListener('mouseout', ) */
+document.getElementById('csen').addEventListener('mouseout', verisenha)
+
+
+function verisenha(){
+    if(campos[3].value!=campos[2].value){
+        document.getElementById('btn').disabled=true
         alert('Senhas não são iguais!')
+    } else{
+        document.getElementById('btn').disabled=false
     }
-    
 }

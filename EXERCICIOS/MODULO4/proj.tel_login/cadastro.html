@@ -29,23 +29,23 @@
                     <form id="formulario" action="enviar.php" method="post">
                         <p>
                             <label for="nome"></label>
-                            <input class="form" type="text" name="nome" id="nome" placeholder="Nome completo" required>
+                            <input class="form" type="text" name="nome" id="nome" placeholder="Nome completo" required minlength="3">
                         </p>
                         <p>
                             <label for="email"></label>
                             <input class="form" type="email" name="email" id="email" placeholder="Email" required>
                         </p>
-                        <p>
+                        <!-- <p>
                             <label for="cel"></label>
                             <input class="form" type="tel" name="cel" id="cel" placeholder="Celular" required>
-                        </p>
+                        </p> -->
                         <p>
                             <label for="sen"></label>
                             <input class="form" type="password" name="sen" id="sen" placeholder="Senha" required minlength="8">
                         </p>
                         <p>
                             <label for="csen"></label>
-                            <input class="form" type="password" name="csen" id="csen" placeholder="Confirmar senha" required minlength="8" onmouseout="alertasenha()" >
+                            <input class="form" type="password" name="csen" id="csen" placeholder="Confirmar senha" required minlength="8">
                         </p>
                         <p class="check">
                             <input type="checkbox" name="conc" id="conc"><label for="conc">Concordo com os termos e condições.</label> <br>
