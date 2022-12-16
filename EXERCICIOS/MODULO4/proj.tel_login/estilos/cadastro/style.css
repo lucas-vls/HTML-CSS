@@ -25,3 +25,12 @@ h1{
     line-height: 1.2em;
     margin: 48px 24px;
 }
+
+span{
+    font-family: PoppinsBold;
+    font-size: 10px;
+    color: red;
+    margin-left: 10px;
+}
+
+

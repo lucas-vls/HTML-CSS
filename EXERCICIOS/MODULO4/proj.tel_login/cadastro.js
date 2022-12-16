@@ -1,19 +1,13 @@
 /* variaveis*/
-
 let formulario = document.getElementById('formulario')
 let campos = document.getElementsByClassName('form')
+let emailtrue = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/
 
 /* listeners */
-/* document.getElementById('emai;').addEventListener('mouseout', ) */
-/* document.getElementById('cel').addEventListener('mouseout', ) */
-document.getElementById('csen').addEventListener('mouseout', verisenha)
+document.getElementById('btn').addEventListener('click', cadastrar)
 
-
-function verisenha(){
-    if(campos[3].value!=campos[2].value){
-        document.getElementById('btn').disabled=true
+function cadastrar(){
+    if(campos[3].value != campos[2].value){
         alert('Senhas não são iguais!')
-    } else{
-        document.getElementById('btn').disabled=false
     }
 }

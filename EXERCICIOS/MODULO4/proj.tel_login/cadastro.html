@@ -27,25 +27,25 @@
                 </div>
                 <div class="formu">
                     <form id="formulario" action="enviar.php" method="post">
-                        <p>
+                        <p class="campos">
                             <label for="nome"></label>
-                            <input class="form" type="text" name="nome" id="nome" placeholder="Nome completo" required minlength="3">
+                            <input class="form" type="text" name="nome" id="nome" placeholder="Nome completo" required minlength="3"><br>
+                            <span id="sno"></span>
                         </p>
-                        <p>
+                        <p class="campos">
                             <label for="email"></label>
-                            <input class="form" type="email" name="email" id="email" placeholder="Email" required>
+                            <input class="form" type="email" name="email" id="email" placeholder="Email" required><br>
+                            <span id="semail"></span>
                         </p>
-                        <!-- <p>
-                            <label for="cel"></label>
-                            <input class="form" type="tel" name="cel" id="cel" placeholder="Celular" required>
-                        </p> -->
-                        <p>
+                        <p class="campos">
                             <label for="sen"></label>
-                            <input class="form" type="password" name="sen" id="sen" placeholder="Senha" required minlength="8">
+                            <input class="form" type="password" name="sen" id="sen" placeholder="Senha" required minlength="8"><br>
+                            <span id="ssen"></span>
                         </p>
-                        <p>
+                        <p class="campos">
                             <label for="csen"></label>
-                            <input class="form" type="password" name="csen" id="csen" placeholder="Confirmar senha" required minlength="8">
+                            <input class="form" type="password" name="csen" id="csen" placeholder="Confirmar senha" required minlength="8"><br>
+                            <span id="sen2"></span>
                         </p>
                         <p class="check">
                             <input type="checkbox" name="conc" id="conc"><label for="conc">Concordo com os termos e condições.</label> <br>
